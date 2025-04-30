@@ -50,7 +50,7 @@ public final class PeeperTest {
 		assertFalse(contents.isEmpty());
 		Document document = (Document) contents.get(0);
 		readToc(document);
-		readSection(document);
+		readSections(document);
 	}
 
 	private void readToc(Document document) {
@@ -71,7 +71,7 @@ public final class PeeperTest {
 		assertFalse(chapter.getNumber().equals(chapter.getNumberDecrypted()));
 	}
 
-	private void readSection(Document document) {
+	private void readSections(Document document) {
 		List<Section> sections = document.getSections();
 		assertFalse(sections.isEmpty());
 		readAnySection(sections);

@@ -14,7 +14,7 @@ There are two standalone applications that help with C++ standard analysis
  - LOFT RGM Peeper for smart structured view and navigation through the standard
  - LOFT RGM Architect for mark-up and requirement gathering
 
-There is also a library that supplies programmatic API for specification model access to create custom analysis instruments.
+There is also a library that supplies programmatic API for specification model access to create custom analytical instruments.
 
 ### How to use LOFT RGM Library
 
